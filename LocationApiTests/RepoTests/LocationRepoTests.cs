@@ -1,11 +1,8 @@
 ﻿using LocationLibrary.Contracts.Models;
-using LocationLibrary.Data;
+using LocationLibrary.Data.DataContext;
 using LocationLibrary.Repos;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-using Moq;
 using Moq.EntityFrameworkCore;
-using System;
 
 namespace LocationApiTests.RepoTests
 {

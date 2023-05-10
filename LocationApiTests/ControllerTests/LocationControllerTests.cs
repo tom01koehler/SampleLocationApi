@@ -3,7 +3,6 @@ using LocationLibrary.Contracts.Dtos;
 using LocationLibrary.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Moq;
 using System.Net;
 
 namespace LocationApiTests.ControllerTests
