@@ -1,4 +1,4 @@
-Sample REST Api written in .NET 6, EF Core6, and testing using MSTest with Moq.
+Sample REST Api written in .NET 6, EF Core6, and testing using MSTest with Moq.  Application will run immediately on pull with no additional setup; in memory database and cache.
 
 # Requirements
 
@@ -25,15 +25,10 @@ Sample REST Api written in .NET 6, EF Core6, and testing using MSTest with Moq.
 - The solution should compile with no errors.
 - The application should run cleanly.
 - Easy local setup to ensure solution can be executed.
-- If nosql db used, preference is RavenDb .
 - Use .NET Core 6.
 - Caching layer can be In Memory 
 - Unit tests can be written using MSTests, NUnit, or Xunit.
 - Use Mocks when unit testing persisted data.
 - All tests should be rerunnable.
 
-# Assumptions
 
-- Use address as string instead of model.
-- Unique "name" would be required, implemented with check for existence rather than catching DB error, alternate implementations may require the check.
-- Assume "future" feature add of test application, use abstraction and conserder alternate use cases that would potentially reuse interfaces and implementations.

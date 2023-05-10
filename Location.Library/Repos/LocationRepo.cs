@@ -1,5 +1,5 @@
 ﻿using LocationLibrary.Contracts.Models;
-using LocationLibrary.Data;
+using LocationLibrary.Data.DataContext;
 using LocationLibrary.Mapping;
 using Microsoft.EntityFrameworkCore;
 

@@ -25,6 +25,7 @@ namespace LocationApi.Controllers
             try
             {
                 var location = await _locationService.AddLocation(name, address);
+                
                 return Ok(location);
             }
             catch (ArgumentNullException ex)

@@ -4,7 +4,6 @@ using LocationLibrary.Contracts.Models;
 using LocationLibrary.Repos;
 using LocationLibrary.Services;
 using Microsoft.Extensions.DependencyInjection;
-using Moq;
 
 namespace LocationApiTests.ServiceTests
 {
